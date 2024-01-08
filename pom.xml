@@ -11,6 +11,7 @@
 	<groupId>com.agent</groupId>
 	<artifactId>backoffice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>agent</name>
 	<description>project transfert national  partie agent </description>
 	<properties>
@@ -111,6 +112,12 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
+			<version>9.4.1.jre11</version>
 		</dependency>
 	</dependencies>
 
